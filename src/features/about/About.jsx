@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import react_icon from "../../assets/icons/react_icon.svg";
 import html_icon from "../../assets/icons/html_icon.svg";
@@ -31,7 +32,7 @@ function About() {
             </h1>
             <h2 className="text-xl max-sm:hidden">
               Hi, I'm Pranjal Snehi. A passionate Front-end React Developer <br />{" "}
-              based in Mumbai,India. 📍
+              based in Delhi, India.📍
             </h2>
           </div>
         </div>
