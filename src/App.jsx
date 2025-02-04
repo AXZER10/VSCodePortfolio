@@ -3,9 +3,9 @@ import Home from "./features/home/Home";
 import About from "./features/about/About";
 import Contact from "./features/contact/Contact";
 import Projects from "./features/projects/Projects";
-import Articles, {
-  loader as ArticlesLoader,
-} from "./features/articles/Articles";
+// import Articles, {
+//   loader as ArticlesLoader,
+// } from "./features/articles/Articles";
 import Github, { loader as GithubLoader } from "./features/github/Github";
 import Settings from "./features/settings/Settings";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
@@ -33,11 +33,11 @@ const router = createBrowserRouter([
         path: "/projects",
         element: <Projects />,
       },
-      {
-        path: "/articles",
-        element: <Articles />,
-        loader: ArticlesLoader,
-      },
+      // {
+      //   path: "/articles",
+      //   element: <Articles />,
+      //   loader: ArticlesLoader,
+      // },
       {
         path: "/github",
         element: <Github />,
