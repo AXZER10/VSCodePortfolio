@@ -1,42 +1,58 @@
-import dictionary from "../../assets/images/dictionary.jpg";
-import rest from "../../assets/images/rest.jpg";
+import Aurora from "../../assets/images/Aurora.png";
 import vscode from "../../assets/images/vscode.jpg";
-import pizza from "../../assets/images/pizzapic.jpg";
+import HabitGenie from "../../assets/images/HabitGenie.png";
+// import HabitGenie2 from "../../assets/images/HabitGenie2.png";
+import TravelBuddy from "../../assets/images/TravelBuddy.png"
+import Gemini from "../../assets/images/Gemini.png"
 export const project = [
   {
-    title: "Vs-Code Portfolio",
+    title: "VSCode themed Portfolio",
     description:
       "A Vscode themed developer portfolio website built with React.js and TailwindCSS.",
     image: vscode,
     tags: ["react", "tailwind", "axios"],
-    sourceCode: "https://github.com/manavss/vscode-portfolio-main",
+    sourceCode: "https://github.com/AXZER10/VSCodePortfolio",
     demo: "https://vscode-portfolio-main.vercel.app/",
+    imgFormat: "cover"
   },
   {
-    title: "Fast React Pizza",
+    title: "TravelBuddy.ai",
     description:
-      " This pizza store prioritize UX and clean UI, making it easy for customers to order pizzas.",
-    image: pizza,
-    tags: ["react", "tailwind", "redux"],
-    sourceCode: "https://github.com/manavss/fast-react-pizza",
-    demo: "https://fast-reactredux-pizza.netlify.app/",
+      "A fully responsive Trip Planner app in react utilising Firebase, TailwindCSS and GeminiAI.",
+    image: TravelBuddy,
+    tags: ["react", "tailwind", "context-api", "Firebase", "OAuth"],
+    sourceCode: "https://github.com/AXZER10/TravelBuddy.ai/",
+    demo: "https://travelbuddyai.netlify.app/",
+    imgFormat: "contain"
   },
   {
-    title: "Rest Countries",
+    title: "Habit Genie",
     description:
-      "A webapp that allows you to search for countries an thier details .",
-    image: rest,
-    tags: ["react", "tailwind", "context-api"],
-    sourceCode: "https://github.com/manavss/restCountries",
-    demo: "https://restcountrydetails.netlify.app/",
+      "Responsive Habit Tracker App using React Native with authentication and backend using firebase.",
+    image: HabitGenie,
+    tags: ["react-native", "tailwind", "redux"],
+    sourceCode: "https://github.com/AXZER10/HabitGenie",
+    // demo: "https://fast-reactredux-pizza.netlify.app/",
+    imgFormat: "cover"
   },
   {
-    title: "Dictionary App",
+    title: "Aurora",
     description:
-      "A Dictionary app that lets you search words in and bookmark them for future reference.",
-    image: dictionary,
+      "A Full stack social media application in react-native using Expo and NativeWind.",
+    image: Aurora,
     tags: ["react", "axios", "material-ui"],
-    sourceCode: "https://github.com/manavss/dictionary",
-    demo: "https://mydictionarysearch.netlify.app/",
+    sourceCode: "https://github.com/AXZER10/Aurora",
+    // demo: "https://mydictionarysearch.netlify.app/",
+    imgFormat: "contain"
+  },
+  {
+    title: "Google Gemini",
+    description:
+      "A modern, interactive Google Gemini clone with smooth animations, persistent chat history, and Google Gemini API integration for intelligent conversations.",
+    image: Gemini,
+    tags: ["react", "axios", "material-ui", "Firebase", "Gemini", "redux"],
+    sourceCode: "https://github.com/AXZER10/Aurora",
+    demo: "https://google-gemini-axzer0.netlify.app/",
+    imgFormat: "cover"
   },
 ];

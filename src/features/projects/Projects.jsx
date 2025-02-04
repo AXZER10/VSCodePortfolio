@@ -22,6 +22,7 @@ function projects() {
                 srcCode={p.sourceCode}
                 demo={p.demo}
                 tags={p.tags}
+                imgFormat={p.imgFormat}
               />
             );
           })}

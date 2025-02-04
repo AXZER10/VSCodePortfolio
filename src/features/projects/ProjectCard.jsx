@@ -1,10 +1,10 @@
 import Tag from "./Tag";
 
 /* eslint-disable react/prop-types */
-function ProjectCard({ img, title, desc, tags, srcCode, demo }) {
+function ProjectCard({ img, title, desc, tags, srcCode, demo, imgFormat }) {
   return (
     <div className="flex  max-w-xs cursor-pointer flex-col rounded-xl bg-articleBg text-textColor hover:shadow-lg">
-      <img src={img} className=" h-[160px] rounded-b-xl rounded-t-lg" alt="" />
+      <img src={img} className={`h-[160px] rounded-b-xl rounded-t-lg object-${imgFormat}`} alt="" />
 
       <div className="flex flex-col gap-y-2 p-4">
         <h2 className=" text-2xl font-semibold">{title}</h2>
