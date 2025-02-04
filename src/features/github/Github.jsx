@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 import RepoCard from "./RepoCard";
 import ActivityCalendar from "react-github-calendar";
 import { Helmet, HelmetProvider } from "react-helmet-async";
@@ -11,10 +12,12 @@ function Github() {
     dark: ["#161B22", "#0e4429", "#006d32", "#26a641", "#39d353"],
   };
 
+  console.log(repoInfo)
+
   return (
     <HelmetProvider>
       <Helmet>
-        <title>Manav Shete | Github</title>
+        <title>Pranjal Snehi | Github</title>
       </Helmet>
       <div className="space-y-8 bg-mainBg p-4 md:p-8">
         <div className="flex h-24 max-w-full items-center justify-center gap-x-5 divide-x-2 divide-accentColor  rounded-lg bg-articleBg">
@@ -43,7 +46,7 @@ function Github() {
             </h2>
           </div>
         </div>
-        <div className="grid gap-x-5 gap-y-5 md:grid-cols-2 xl:grid-cols-4">
+        <div className="grid gap-x-5 gap-y-12 md:gap-y-8 lg:gap-y-8 xl:gap-y-12 md:grid-cols-2 xl:grid-cols-4">
           {repoInfo &&
             repoInfo.map((r) => {
               return (
@@ -59,7 +62,7 @@ function Github() {
         </div>
         <div className="h-full w-full  text-textColor">
           <ActivityCalendar
-            username="manavss"
+            username="AXZER10"
             fontSize={17}
             theme={theme}
             hideColorLegend

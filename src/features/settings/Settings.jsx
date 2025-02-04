@@ -41,7 +41,7 @@ function Settings() {
     <HelmetProvider>
       <div className="p-8">
         <Helmet>
-          <title>Manav Shete | Settings</title>
+          <title>Pranjal Snehi | Settings</title>
         </Helmet>
         <h2 className="text-3xl font-semibold text-textColor">Manage Themes</h2>
         <div className="grid gap-5 pt-8 md:grid-cols-3 xl:grid-cols-4">

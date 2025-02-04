@@ -8,7 +8,7 @@ function Articles() {
   return (
     <HelmetProvider>
       <Helmet>
-        <title>Manav Shete | Articles</title>
+        <title>Pranjal Snehi | Articles</title>
       </Helmet>
       <div className="p-8">
         <h1 className="pb-8 text-3xl font-semibold text-textColor">

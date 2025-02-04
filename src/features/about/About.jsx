@@ -18,7 +18,7 @@ function About() {
   return (
     <HelmetProvider>
       <Helmet>
-        <title>Manav Shete | About</title>
+        <title>Pranjal Snehi | About</title>
       </Helmet>
       <div className=" flex flex-col  items-center justify-center gap-y-4 p-8 text-textColor xl:gap-y-8 ">
         <div className="flex flex-col items-center gap-x-48 xl:flex-row">
@@ -30,7 +30,7 @@ function About() {
               Front-End <br /> React Developer
             </h1>
             <h2 className="text-xl max-sm:hidden">
-              Hi, I'm Manav Shete. A passionate Front-end React Developer <br />{" "}
+              Hi, I'm Pranjal Snehi. A passionate Front-end React Developer <br />{" "}
               based in Mumbai,India. 📍
             </h2>
           </div>

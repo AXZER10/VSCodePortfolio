@@ -3,6 +3,7 @@ import github_icon from "../../assets/icons/github_icon.svg";
 import link_icon from "../../assets/icons/link_icon.svg";
 
 function RepoCard({ name, desc, url, homepage }) {
+  // console.log(name, desc, url, homepage)
   return (
     <div className=" flex  max-w-xs flex-col justify-between space-y-2 rounded-lg  bg-articleBg p-4">
       <h3 className=" text-xl font-semibold text-accentColor">{name}</h3>
