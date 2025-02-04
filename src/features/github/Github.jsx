@@ -12,7 +12,7 @@ function Github() {
     dark: ["#161B22", "#0e4429", "#006d32", "#26a641", "#39d353"],
   };
 
-  console.log(repoInfo)
+  // console.log(repoInfo)
 
   return (
     <HelmetProvider>
