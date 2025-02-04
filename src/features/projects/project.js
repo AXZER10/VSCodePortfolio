@@ -1,5 +1,5 @@
 import Aurora from "../../assets/images/Aurora.png";
-import vscode from "../../assets/images/vscode.jpg";
+import vscode from "../../assets/images/vscode.png";
 import HabitGenie from "../../assets/images/HabitGenie.png";
 // import HabitGenie2 from "../../assets/images/HabitGenie2.png";
 import TravelBuddy from "../../assets/images/TravelBuddy.png"
@@ -13,7 +13,7 @@ export const project = [
     tags: ["react", "tailwind", "axios"],
     sourceCode: "https://github.com/AXZER10/VSCodePortfolio",
     demo: "https://vscode-portfolio-main.vercel.app/",
-    imgFormat: "cover"
+    imgFormat: "object-cover"
   },
   {
     title: "TravelBuddy.ai",
@@ -23,7 +23,7 @@ export const project = [
     tags: ["react", "tailwind", "context-api", "Firebase", "OAuth"],
     sourceCode: "https://github.com/AXZER10/TravelBuddy.ai/",
     demo: "https://travelbuddyai.netlify.app/",
-    imgFormat: "contain"
+    imgFormat: "object-contain"
   },
   {
     title: "Habit Genie",
@@ -33,7 +33,7 @@ export const project = [
     tags: ["react-native", "tailwind", "redux"],
     sourceCode: "https://github.com/AXZER10/HabitGenie",
     // demo: "https://fast-reactredux-pizza.netlify.app/",
-    imgFormat: "cover"
+    imgFormat: "object-cover"
   },
   {
     title: "Aurora",
@@ -43,7 +43,7 @@ export const project = [
     tags: ["react", "axios", "material-ui"],
     sourceCode: "https://github.com/AXZER10/Aurora",
     // demo: "https://mydictionarysearch.netlify.app/",
-    imgFormat: "contain"
+    imgFormat: "object-contain"
   },
   {
     title: "Google Gemini",
@@ -53,6 +53,6 @@ export const project = [
     tags: ["react", "axios", "material-ui", "Firebase", "Gemini", "redux"],
     sourceCode: "https://github.com/AXZER10/Aurora",
     demo: "https://google-gemini-axzer0.netlify.app/",
-    imgFormat: "cover"
+    imgFormat: "object-cover"
   },
 ];
