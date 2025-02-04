@@ -2,34 +2,24 @@ function ContactSocials() {
   const socials = [
     {
       social: "email",
-      un: "shetemanav38@gmail.com",
-      href: "mailto:shetemanav38@gmail.com",
+      un: "pranjal.snehi@gmail.com",
+      href: "mailto:pranjal.snehi@gmail.com",
     },
     {
       social: "github",
-      un: "manavss",
-      href: "https://www.github.com/manavss/",
+      un: "AXZER10",
+      href: "https://www.github.com/AXZER10/",
     },
     {
       social: "linkedin",
-      un: "manavshete",
-      href: "https://www.linkedin.com/in/manav-shete-aa600a194/",
+      un: "pranjalsnehi",
+      href: "https://www.linkedin.com/in/pranjalsnehi/",
     },
     {
       social: "instagram",
-      un: "mannaavvv_",
-      href: "https://www.instagram.com/mannaavvv_",
+      un: "pranjalsnehi",
+      href: "https://www.instagram.com/pranjalsnehi",
     },
-    {
-      social: "frontend mentor",
-      un: "manavss",
-      href: "https://www.frontendmentor.io/profile/manavss",
-    },
-{
-social:"dev.to",
-un:"manavss",
-href:"https://www.dev.to"
-}
   ];
   return (
     <div className="line-container flex flex-col">
