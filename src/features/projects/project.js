@@ -12,7 +12,7 @@ export const project = [
     image: vscode,
     tags: ["react", "tailwind", "axios"],
     sourceCode: "https://github.com/AXZER10/VSCodePortfolio",
-    demo: "https://vscode-portfolio-main.vercel.app/",
+    demo: "https://vs-code-portfolio.netlify.app/",
     imgFormat: "object-cover"
   },
   {
