@@ -1,4 +1,4 @@
-export const experiences = [
+const experiences = [
     // {
     //   role: 'Full Stack Developer',
     //   company: 'Freelance',
@@ -18,3 +18,5 @@ export const experiences = [
     //   description: 'Contributed to frontend improvements and bug fixes for community-driven open source projects.'
     // }
   ];
+
+export default experiences;

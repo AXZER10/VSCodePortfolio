@@ -4,6 +4,7 @@ import HabitGenie from "../../assets/images/HabitGenie.png";
 // import HabitGenie2 from "../../assets/images/HabitGenie2.png";
 import TravelBuddy from "../../assets/images/TravelBuddy.png"
 import Gemini from "../../assets/images/Gemini.png"
+import StudyBuddy from "../../assets/images/study-buddy.png"
 export const project = [
   {
     title: "VSCode themed Portfolio",
@@ -53,6 +54,16 @@ export const project = [
     tags: ["react", "axios", "material-ui", "Firebase", "Gemini", "redux"],
     sourceCode: "https://github.com/AXZER10/Aurora",
     demo: "https://google-gemini-axzer0.netlify.app/",
+    imgFormat: "object-cover"
+  },
+  {
+    title: "Study Buddy",
+    description:
+      "A modern study app that helps students share notes, manage tasks, join groups, and boost productivity — all through a clean and responsive UI.",
+    image: StudyBuddy,
+    tags: ["nextjs", "tailwindcss", "lucide-react", "google-fonts"],
+    sourceCode: "https://github.com/AXZER10/study-buddy",
+    demo: "",
     imgFormat: "object-cover"
   },
 ];

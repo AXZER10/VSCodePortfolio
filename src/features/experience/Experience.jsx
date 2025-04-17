@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import { experiences } from './experience';
+import experiences from './experiences';
 
 function Experience() {
 
