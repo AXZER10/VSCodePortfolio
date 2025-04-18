@@ -7,6 +7,8 @@ import js_icon from "../assets/icons/js_icon.svg";
 import json_icon from "../assets/icons/json_icon.svg";
 import markdown_icon from "../assets/icons/markdown_icon.svg";
 import { Link } from "react-router-dom";
+import { VscSettings } from "react-icons/vsc";
+
 const explorerItems = [
   {
     name: "home.jsx",
@@ -38,6 +40,11 @@ const explorerItems = [
     path: "/github",
     icon: `${markdown_icon}`,
   },
+  {
+    name: "settings",
+    path: "/settings",
+    icon: "settings",
+  },
 ];
 function Explorer() {
   const [show, setShow] = useState(true);
@@ -63,7 +70,13 @@ function Explorer() {
                   key={item.name}
                   className=" flex  gap-x-1 hover:bg-explorerHoverBg"
                 >
-                  <img src={item.icon} alt={item.name} height={20} width={20} />
+                  {item.icon !== "settings" ? (
+                    <img src={item.icon} height={20} width={20} alt="react-icon" />
+                  ) : (
+                    <div className="items-center justify-center flex">
+                      <VscSettings className="h-[20px] w-[20px]" />
+                    </div>
+                  )}
                   <p className=" text-lg font-medium">{item.name}</p>
                 </Link>
               );

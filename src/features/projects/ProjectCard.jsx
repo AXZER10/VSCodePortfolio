@@ -4,7 +4,9 @@ import Tag from "./Tag";
 function ProjectCard({ img, title, desc, tags, srcCode, demo, imgFormat }) {
   return (
     <div className="flex justify-between max-w-xs cursor-pointer flex-col rounded-xl bg-articleBg text-textColor hover:shadow-lg text-balance">
-      <img src={img} className={`h-[160px] rounded-b-xl rounded-t-lg ${imgFormat}`} alt="" />
+      <div className="overflow-hidden rounded-t-lg">
+        <img src={img} className={`h-[160px] w-full transform transition-transform duration-300 ease-in-out hover:scale-105 ${imgFormat}`} alt="" />
+      </div>
 
       <div className="flex flex-col gap-y-2 p-4">
         <h2 className=" text-2xl font-semibold">{title}</h2>
