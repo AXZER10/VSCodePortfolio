@@ -74,7 +74,7 @@ function Tabs() {
               to={`${tab.path}`}
               className={`flex items-center ${location.pathname === tab.path
                 ? " border-t-2 border-t-accentColor bg-tabActiveBg"
-                : "border-2 bg-tabBg"
+                : "border-x border-t-2 bg-tabBg"
                 } min-w-max gap-x-1 border-tabBorder px-3 text-textColor md:py-1`}
             >
               {tab.icon !== "settings" ? (
