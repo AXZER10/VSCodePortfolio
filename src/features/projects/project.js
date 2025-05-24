@@ -63,7 +63,7 @@ export const project = [
     image: StudyBuddy,
     tags: ["nextjs", "tailwindcss", "lucide-react", "google-fonts"],
     sourceCode: "https://github.com/AXZER10/study-buddy",
-    demo: "",
+    demo: "https://study-buddy-pranjal.netlify.app/",
     imgFormat: "object-cover"
   },
 ];
