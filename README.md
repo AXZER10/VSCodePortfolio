@@ -34,7 +34,7 @@ A personal portfolio website designed to mimic the user interface of Visual Stud
 1.  **Clone the repository:**
 
     ```bash
-    git clone https://github.com/YOUR_USERNAME/vscode-portfolio.git
+    git clone https://github.com/AXZER10/vscode-portfolio.git
     cd vscode-portfolio
     ```
 
